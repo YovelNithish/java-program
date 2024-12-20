@@ -1,0 +1,18 @@
+public class Exercise {
+
+	public static void main(String[] args) {
+		{
+		int age=24;
+		//if else control statement
+		if(age<6)//if part
+		{
+			System.out.println("You are eligible to vote");
+		}
+		else //else part
+		{
+			System.out.println("You are not eligible to vote");
+		}
+		}
+	}
+
+}
