@@ -1,0 +1,22 @@
+
+public class Exercise {
+
+	public static void main(String[] args) {
+		{
+		int a=10;
+		//if else control statement
+		if(a==10||a<15)//if part
+		{
+			System.out.println("a is smaller than 15");
+			if(a<12) {
+				System.out.println("a is smaller than 12 too");
+			}
+		}
+		else //else part
+		{
+			System.out.println("a is smaller than 15");
+		}
+		}
+	}
+
+}
