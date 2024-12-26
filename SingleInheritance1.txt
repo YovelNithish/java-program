@@ -1,0 +1,26 @@
+SingleInheritance1:
+-------------------
+
+
+package NewPack;
+  class Car {
+protected  String brand="tata";
+public void horn()//method
+{
+	System.out.println(" the car is horning the road ");
+	}
+  }
+
+///////class ends
+
+class SingleInheritance1 extends Car{
+	public String model="Indica";
+	public static void main(String[] args) 
+	{
+		SingleInheritance1 mycar=new SingleInheritance1();
+		mycar.horn();
+		System.out.println(mycar.brand+" "+"and"+" "+mycar.model);
+
+	}
+
+}
