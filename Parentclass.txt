@@ -1,0 +1,32 @@
+ParentClass:
+-------------------
+
+package Parent;
+class ParentClass1 {
+int PAge=40;
+}
+	class ChildClass1 extends ParentClass1
+	{
+		int CAge1=10;
+	}
+	class ChildClass2 extends ParentClass1
+	{
+		int CAge2=20;
+	}
+	class ChildClass3 extends ParentClass1
+	{
+		int CAge3=30;
+	}
+	public class ParentClass {
+	public static void main(String[] args) {
+		ChildClass1 c1=new ChildClass1();
+		ChildClass2 c2=new ChildClass2();
+		ChildClass3 c3=new ChildClass3();
+		System.out.println("PAge *CAge1"+" "+c1.PAge*c1.CAge1);
+		System.out.println("PAge *CAge2"+" "+c2.PAge*c2.CAge2);
+		System.out.println("PAge *CAge3"+" "+c3.PAge*c3.CAge3);
+		
+
+	}
+
+}
