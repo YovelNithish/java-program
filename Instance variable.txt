@@ -1,0 +1,22 @@
+package NewPack;
+
+public class InstanceVariable 
+// instace variable does not complry need to be enitiolised
+
+
+
+{
+	static int b=9;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String a="Hello";
+		int i =9;
+		System.out.println("the value of string is:"+a);
+		System.out.println("the value of string is:"+i);
+		System.out.println("the value of string is:"+b);
+
+	}
+
+}
+
