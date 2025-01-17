@@ -1,0 +1,18 @@
+package NewPack;
+
+public class ByteExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		byte ascii[]= {81,70,97};
+		//create string using byte array
+		String firstString=new String(ascii);
+		System.out.println(firstString);
+		String secondString=new String(ascii,1,2);
+		System.out.println(secondString);
+		
+		
+
+	}
+
+}
