@@ -1,0 +1,18 @@
+package NewPack;
+import java.util.*;
+public class LinkedHashMapNB {
+
+	public static void main(String[] args) {
+		LinkedHashMap<String,String> lhm=new LinkedHashMap<String,String>();
+		lhm.put("one","hai");
+		lhm.put("two","heyy");
+		System.out.println("Geting Key value"+lhm.get("one"));
+		System.out.println("Size of hash map"+lhm.size());
+		System.out.println("Contains key two"+lhm.containsKey("two"));
+		System.out.println("Contains value heyy"+lhm.containsValue("heyy"));
+		System.out.println("delete the element one"+lhm.remove("one"));
+		System.out.println(lhm);
+
+	}
+
+}
