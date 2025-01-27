@@ -1,0 +1,22 @@
+package NewPack;
+
+import java.util.TreeSet;
+
+public class TreeSetImp {
+
+	public static void main(String[] args) {
+		TreeSet<Integer> ts=new TreeSet<Integer>();
+		ts.add(1);
+		ts.add(2);
+		ts.add(3);
+		ts.add(4);
+		ts.add(5);
+		ts.add(6);
+		System.out.println("Before elements from treeSet"+ts);
+		System.out.println("After elements from treeSet"+ts.pollFirst());
+		System.out.println("PollLast treeSet"+ts.pollLast());
+
+
+	}
+
+}
