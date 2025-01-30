@@ -1,0 +1,21 @@
+package NewPack;
+class Programmer
+{
+	private String name;
+	public String getName()
+	{
+		return name;
+	}
+	public void setName(String name)
+	{
+		this.name=name;
+	}
+}
+public class EncapsulationImpl {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+   Programmer p=new Programmer();
+   p.setName("Manick");
+   System.out.println("Name is"+" "+p.getName());
+	}
+}
